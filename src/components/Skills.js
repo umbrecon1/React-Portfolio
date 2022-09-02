@@ -42,31 +42,31 @@ export const Skills = () => {
                         <br></br>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="HTML" />
                                 <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="CSS" />
                                 <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="Javascript" />
                                 <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter4} alt="Image" />
-                                <h5>Node.JS</h5>
+                                <img src={meter4} alt="Node.js" />
+                                <h5>Node.js</h5>
                             </div>
                             <div className="item">
-                                <img src={meter5} alt="Image" />
-                                <h5>React.JS</h5>
+                                <img src={meter5} alt="React.js" />
+                                <h5>React.js</h5>
                             </div>
                             <div className="item">
-                                <img src={meter6} alt="Image" />
+                                <img src={meter6} alt="MongoDB" />
                                 <h5>MongoDB</h5>
                             </div>
                             <div className="item">
-                                <img src={meter7} alt="Image" />
+                                <img src={meter7} alt="SQL" />
                                 <h5>SQL</h5>
                             </div>
                         </Carousel>
