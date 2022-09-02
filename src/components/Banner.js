@@ -5,6 +5,7 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -58,7 +59,7 @@ export const Banner = () => {
               
                 <h1>{`Connor Mitchener`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>UCI Full Stack Bootcamp student looking to take a full dive into the Web Development world!</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <a href="mailto:umbrecon@icloud.com" id="mail">Contact <ArrowRightCircle size={25} /></a>
               </div>}
             </TrackVisibility>
           </Col>

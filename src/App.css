@@ -304,13 +304,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+#mail {
+  text-decoration: none;
+  color: white;
+}
+
 /************ Skills Css ************/
 .skill {
   padding: 0 0 50px 0;
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: #6f6181bb;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
