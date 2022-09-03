@@ -33,7 +33,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: black !important;
   color: #fff !important;
   font-family: 'Aboreto', sans-serif !important;
 }
@@ -49,6 +49,9 @@ p, a, li, button, ul {
   padding: 0;
   line-height: normal;
   text-decoration: none;
+}
+h4 {
+  color: black;
 }
 
 a:hover {
@@ -233,7 +236,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .headerImage {
-  box-shadow: white 0px 15px 25px,white 0px 5px 10px;
+  box-shadow: white 0px 15px 25px 7px,white 0px 5px 10px 7px;
   border-radius: 25px;
 }
 /************ Banner Css ************/
@@ -313,6 +316,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  background-color: black;
 }
 .skill-bx {
   background: #6f6181bb;
@@ -431,15 +435,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background-image: url('./assets/img/starbtn.png');
   opacity: 0.85;
   position: absolute;
   width: 100%;
   height: 0;
   transition: 0.4s ease-in-out;
+  color: black;
 }
 .proj-imgbx:hover::before {
   height: 100%;
+  color:black
 }
 .proj-txtx {
   position: absolute;
@@ -464,8 +470,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 10px;
   letter-spacing: 0.8px;
+  color: black;
 }
 .background-image-right {
   top: 20%;
@@ -478,7 +485,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background-image: url('./assets/img/background1.png');
+  background-color: black;
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -531,11 +539,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .contact form button:hover {
-  color: #fff;
+  color: black;
 }
 .contact form button::before {
   content: "";
-  background: #121212;
+  background-image: url('./assets/img/starbtn.png');
   width: 0;
   height: 100%;
   position: absolute;
@@ -551,7 +559,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  background-color: black;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

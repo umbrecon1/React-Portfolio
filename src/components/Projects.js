@@ -1,44 +1,50 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/regex.png";
+import projImg2 from "../assets/img/weather.png";
+import projImg3 from "../assets/img/tft.png";
+import projImg4 from "../assets/img/astro.png";
+import projImg5 from "../assets/img/stargazer.jpg";
+import projImg6 from "../assets/img/quiz.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+
 
 export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Regex Tutorial",
+      description: (
+      <a href="https://github.com/umbrecon1/Gist-Regex-Tutorial">GitHub Page</a>),
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Weather Dashboard",
+      description: (
+        <a href="https://github.com/umbrecon1/Weather-App">GitHub Page</a>),      imgUrl: projImg2,
+      
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "TFT Stat Tracker",
+      description: (
+        <a href="https://github.com/FluffyKyubey/tftstattrackercomparer">GitHub Page</a>),      imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "S.H.I.P!!",
+      description: (
+        <a href="https://github.com/FluffyKyubey/shmup">GitHub Page</a>),      imgUrl: projImg4,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Stargazer",
+      description: (
+        <a href="https://github.com/kiira2125/StarGazer">GitHub Page</a>),      imgUrl: projImg5,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Waifu Quiz",
+      description: (
+        <a href="https://github.com/umbrecon1/Code-Quiz">GitHub Page</a>),      imgUrl: projImg6,
     },
   ];
 
@@ -60,10 +66,13 @@ export const Projects = () => {
                         {
                           projects.map((project, index) => {
                             return (
+                              
                               <ProjectCard
                                 key={index}
                                 {...project}
+                             
                                 />
+                               
                             )
                           })
                         }
